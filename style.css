@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Sacramento&display=swap');
+
+body {
+	font-family: 'Lexend', sans-serif;
+	color: #a7a7a7 !important;
+	display: flex;
+	justify-content: center;
+	background-color: pink;
+}
+
+.text-black {
+	color: #f04e73 !important;
+}
+
+.text-pink {
+	color: #b12a4a;
+}
+
+.isi .home {
+    background-image: url(pict/strawberry-cake-bg.jpg);
+	background-size: cover;
+}
+
+@media (min-width:992px) {
+    .home {
+      display: flex;
+      justify-content: center;
+    }
+}
+
+.kanan-atas {
+	right: 0px;
+}
+
+.kiri-atas {
+	left: 0px;
+}
+
+.hero-1 .container .home {
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.isi {
+	width: 400px;
+	background-color: #fff1e6;
+}
+
+.bg {
+	background-color: #d65b77;
+}
+
+p {
+	font-size: 15px;
+	color: #a7a7a7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card-body {
+    background-color: #fff1e6;
+    height: auto;
+    position: relative;
+}
+
+.card-text {
+    font-size: 17px;
+}
+
+.card-title {
+	color: #d65b77;
+}
+
+.volume {
+    background-color: #fff1e6;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    padding: 15px;
+}
+
+.volume {
+    color: #f04e73;
+}
+
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+div.scrollmenu>a {
+    display: block;
+    color: #d65b77;
+    text-align: center;
+    border-left: 1px solid #d65b77;
+    border-right: 1px solid #d65b77;
+    padding: 14px;
+    width: 110px;
+    text-decoration: none;
+    margin: 0;
+}
+
+div.scrollmenu a:hover {
+    background-color: #d65b77;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    div.scrollmenu {
+        overflow-x: scroll;
+        display: flex;
+        justify-content: left;  
+        /* width: 1000px; */
+
+    }
+}
+
+@media all and (max-width: 480px) { 
+    .foto{
+        width: 350px;
+    }
+    div.scrollmenu>a{
+        /* display: block; */
+        width: 110px;
+    }
+}
